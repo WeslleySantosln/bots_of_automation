@@ -1,0 +1,1 @@
+Soluções de automação: Implementação de robôs para automatizar tarefas repetitivas em processos empresariais, como o preenchimento automático de formulários, a extração de dados de planilhas de forma automática e a manipulação desses dados para diversas finalidades.
