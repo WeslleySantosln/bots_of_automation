@@ -27,7 +27,7 @@ def atualizar_planilha(client, spreadsheet_id, sheet_name, excel_path, empresa):
     # Carregar dados do Excel
     df = pd.read_excel(excel_path, header=1)
     #df = df[COLUNAS_SELECIONADAS]
-    #df = df[df['Descrição Unidade de Custo'] == 'COMERCIAL']
+    df = df[df['Descrição Unidade de Custo'] == 'COMERCIAL']
 
 
     # Adiciona a coluna "EMPRESA"
