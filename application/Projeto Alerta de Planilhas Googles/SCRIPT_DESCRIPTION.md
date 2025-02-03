@@ -93,7 +93,7 @@ var columnsToCheck = [
 ## **Exemplo de Uso**
 Suponha que a planilha contenha os seguintes dados na aba `MAIN`:
 
-| Contrato | Valor Pagamento | Valor Recebimento |Campor Obrigatorio| Valor NF Acima do Limite | Campo Obrigatório  |
+| Contrato | Valor Pagamento | Valor Recebimento |Campor Obrigatorio| Valor NF incompativel    | Campo Obrigatório  |
 |----------|-----------------|-------------------|------------------|--------------------------|--------------------|
 | 12345    | 1000            | 800               |    preenchido    |          SIM             |                    |
 | 67890    | 2000            | 2000              |                  |                          |       SIM          |

@@ -14,7 +14,7 @@ O script utiliza bibliotecas como `pyautogui`, `pygetwindow`, `datetime`, e mód
 ---
 
 ### 2. **Função `hr_chamada`**
-A função `hr_chamada` registra o horário de término de uma chamada ou processo específico. Ela utiliza a biblioteca `datetime` para capturar a hora atual e exibi-la no formato `HH:MM`. Essa função é útil para monitorar o progresso do script e identificar possíveis gargalos durante a execução.
+A função `hr_chamada` registra o horário de término de uma chamada ou processo. Ela utiliza a biblioteca `datetime` para capturar a hora atual e exibi-la no formato `HH:MM`. Essa função é útil para monitorar o progresso do script e identificar possíveis gargalos durante a execução.
 
 **Exemplo de Saída:**
 ```
