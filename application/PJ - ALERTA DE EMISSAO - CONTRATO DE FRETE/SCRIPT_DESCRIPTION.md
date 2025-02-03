@@ -93,10 +93,10 @@ var columnsToCheck = [
 ## **Exemplo de Uso**
 Suponha que a planilha contenha os seguintes dados na aba `MAIN`:
 
-| Contrato | Valor Pagamento | Valor Recebimento |Campor Obrigatorio| Valor NF Acima do Limite | Campo Obrigatório |
-|----------|-----------------|-------------------|                  |-----------|--------------------|
-| 12345    | 1000            | 800               |                  | SIM       |                    |
-| 67890    | 2000            | 2000              |                  |           | SIM               |
+| Contrato | Valor Pagamento | Valor Recebimento |Campor Obrigatorio| Valor NF Acima do Limite | Campo Obrigatório  |
+|----------|-----------------|-------------------|------------------|--------------------------|--------------------|
+| 12345    | 1000            | 800               |    preenchido    |          SIM             |                    |
+| 67890    | 2000            | 2000              |                  |                          |       SIM          |
 
 - Para o contrato `12345`, o script identifica que o valor do pagamento é maior que o valor de recebimento e envia um e-mail de alerta.
 - Para o contrato `67890`, o script identifica que o campo obrigatório está vazio e também envia um e-mail de alerta.
