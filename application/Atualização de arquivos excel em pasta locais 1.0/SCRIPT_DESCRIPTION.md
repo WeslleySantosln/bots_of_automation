@@ -1,0 +1,3 @@
+O script automatiza a extração de relatórios de um sistema de logística online. Ele faz login no sistema, baixa relatórios específicos, limpa a pasta de downloads, copia os arquivos baixados e os cola em uma pasta destino para atualização do Power BI. O processo envolve navegação no navegador, interação com a interface gráfica, manipulação de arquivos e fechamento de janelas após a conclusão das tarefas.
+
+O método foi otimizado para evitar a abertura manual da pasta de downloads, utilizando as bibliotecas `os` e `shutil` para copiar os arquivos diretamente da pasta de downloads para a pasta destino, sem interação com a tela ou teclado via `pyautogui`. Isso economiza tempo e reduz margens de erro.

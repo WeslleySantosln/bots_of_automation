@@ -1,0 +1,84 @@
+<!doctype html>
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato:100&amp;display=swap" rel="stylesheet" />
+  <style>
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px;
+      background: #7fba66; /* Verde */
+    }
+
+    /* Estilização dos botões */
+    .btn-container-top {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn-top {
+      width: 120px;
+      height: 40px;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid #ffffffcc;
+      outline: none;
+      transition: 1s ease-in-out;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3px;
+    }
+
+    .btn-top svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      fill: none;
+      stroke: #ffffff;
+      stroke-dasharray: 150 480;
+      stroke-dashoffset: 150;
+      transition: 1s ease-in-out;
+    }
+
+    .btn-top:hover {
+      background: #7fba66;
+    }
+
+    .btn-top:hover svg {
+      stroke-dashoffset: -480;
+    }
+
+    .btn-top span {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-weight: 80;
+      z-index: 1;
+    }
+
+  </style>
+
+<div class="top">
+  <!-- Botões à esquerda -->
+  <div class="btn-container-top">
+    
+    <button class="btn-top" onclick="location.href='https://cetlag.blogspot.com'">
+      <svg width="120" height="40">
+        <rect x="0" y="0" width="120" height="40"></rect>
+      </svg>
+      <span>Página Inicial</span>
+    </button>
+
+    <button class="btn-top" onclick="location.href='https://cetlag.blogspot.com/p/cetlag-informa-sobre-nos.html'">
+      <svg width="120" height="40">
+        <rect x="0" y="0" width="120" height="40"></rect>
+      </svg>
+      <span>Sobre</span>
+    </button>
+
+  </div>
+</div>
+
+</!doctype>
